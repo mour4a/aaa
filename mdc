@@ -1,0 +1,26 @@
+programa {
+  funcao inicio() {
+    inteiro num1, num2, maior, menor, i
+    escreva("primeiro numero")
+		leia(num1)
+		escreva("segundo numero")
+		leia(num2)
+
+		se(num1>num2)entao
+		maior =num1
+		menor =num2
+		senao
+		maior =num2
+		menor =num1
+	para
+		enquanto (maior mod menor<>0)
+		i =menor
+		menor =maior mod menor
+		maior =i
+		para
+
+		escreva("O mdc é ", menor)
+
+
+  }
+}
