@@ -1,0 +1,10 @@
+programa {
+  funcao inicio() {
+    inteiro numero, contador
+    escreva("digite um numero: \n")
+    leia(numero)
+    para(contador=10;contador;<=1; contador--)
+    escreva()
+
+  }
+}
