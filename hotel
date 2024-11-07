@@ -1,0 +1,14 @@
+Nome=input("Digite seu nome:")
+Quarto=input("Digite qual tipo de quarto você deseja:")
+Dias=int(input("Quantos dias você ficará hospedado?"))
+Pgmto=input("Digite a forma de pagamento:")
+if Quarto=='solteiro': 
+    Diaria=100
+elif Quarto=='casal':
+    Diaria=170
+if Pgmto=='pix':
+    VrTotal=(Diaria*Dias)*0.10
+elif Pgmto=='cartao':
+    VrTotal=Diaria*Dias
+print("Valor total",VrTotal)
+    
